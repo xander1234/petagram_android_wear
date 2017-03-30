@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.com.pets.ActivityContacto">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbarppal">
+    </include>
+
+<TextView
+        android:id="@+id/tvContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/contacto"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/miActionBar"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/nombreContacto"
+        android:ems="10"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/tvContacto"
+        android:layout_alignLeft="@+id/btnContacto"
+        android:layout_alignStart="@+id/btnContacto"
+        android:layout_alignRight="@+id/btnContacto"
+        android:layout_alignEnd="@+id/btnContacto" />
+
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="@string/correoContacto"
+        android:layout_below="@+id/etNombre"
+        android:layout_alignLeft="@+id/etNombre"
+        android:layout_alignStart="@+id/etNombre"
+        android:layout_alignRight="@+id/btnContacto"
+        android:layout_alignEnd="@+id/btnContacto" />
+
+    <EditText
+        android:id="@+id/etMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:hint="@string/mensajeContacto"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/etCorreo"
+        android:layout_alignStart="@+id/etCorreo"
+        android:layout_alignRight="@+id/etCorreo"
+        android:layout_alignEnd="@+id/etCorreo" />
+
+    <Button
+        android:id="@+id/btnContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonEnviar"
+        android:layout_below="@+id/etMensaje"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:theme="@style/MiBotonRaised"
+        />
+
+
+</RelativeLayout>

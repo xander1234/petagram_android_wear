@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.com.pets.ActivityAbout"
+    >
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbarppal"
+        >
+    </include>
+
+    <TextView
+        android:id="@+id/tvMiNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/namePerson"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_below="@+id/miActionBar"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/tvProfesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/profesion"
+        android:layout_below="@+id/tvMiNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        />
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/fechaNacimiento"
+        android:layout_below="@+id/tvMiNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tvpais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/pais"
+        android:layout_below="@+id/tvFecha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/tvUnpcodemi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/unpocodemi"
+        android:layout_below="@+id/tvpais"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+
+
+</RelativeLayout>

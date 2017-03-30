@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="nombre">Xander Hoyos</string>
+    <string name="telefono">5678900</string>
+    <string name="email">xander@xander.com</string>
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+    <string name="texto_about">Acerca de</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_instagram">Configurar Cuenta</string>
+    <string name="menu_recibir_notificaciones">Recibir Notificaciones</string>
+    <string name="namePerson">Alexander Hoyos</string>
+    <string name="fechaNacimiento">Fecha Nacimiento: 12/Ago/1985</string>
+    <string name="profesion">Profesion: Ingeniero Informatico</string>
+    <string name="pais">Pais: Colombia</string>
+    <string name="unpocodemi">XD</string>
+    <string name="contacto">Contacto</string>
+    <string name="nombreContacto">Nombre</string>
+    <string name="correoContacto">Correo</string>
+    <string name="mensajeContacto">Mensaje</string>
+    <string name="botonEnviar">Enviar</string>
+    <string name="likes">2</string>
+
+    <string name="et_configurar_cuenta">Usuario instagram:</string>
+    <string name="tv_cuenta_configurada">"Ingresa la cuenta de instagram a configurar:\n\n     **Cuenta principal: favoritepets1"</string>
+    <string name="tv_cuenta_configurada_firebase">"Registro de dispositivo:\n Ingresa la cuenta de instagram\n\n     **Cuenta principal: favoritepets1"</string>
+    <string name="btnGuardarPreferencia">Configurar Cuenta</string>
+    <string name="btnGuardarPreferenciaFireabse">Registrar Cuenta</string>
+
+    <string name="texto_accion_toque">Devuelve el toque</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_recibir_notificacion">ActivityRecibirNotificacion</string>
+</resources>

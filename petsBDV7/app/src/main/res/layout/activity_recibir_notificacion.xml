@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/content_activity_recibir_notificacion"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="co.com.pets.ActivityRecibirNotificacion"
+android:orientation="vertical"
+    >
+
+<include android:id="@+id/miActionBar"
+    layout="@layout/actionbar_mascota">
+</include>
+
+<android.support.design.widget.TextInputLayout
+    android:id="@+id/input_layout_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="50dp"
+    android:paddingLeft="15dp"
+    android:textColorHint="@color/colorNegro"
+    >
+
+    <EditText
+        android:id="@+id/etCuentaFirebase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_configurar_cuenta"
+        android:textSize="20dp"
+        android:textColor="@color/colorNegro"
+        />
+</android.support.design.widget.TextInputLayout>
+
+<TextView
+    android:id="@+id/cuenta_configurada"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:text="@string/tv_cuenta_configurada_firebase"
+    android:paddingBottom="50dp"
+    android:paddingLeft="15dp"
+    android:textSize="18dp"
+    />
+
+<Button
+    android:id="@+id/btnRegistrarDevice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:text="@string/btnGuardarPreferenciaFireabse"
+    android:theme="@style/MiBotonRaised"
+    android:onClick="btnClicRegistrarDeviceFirebase"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+
+    />
+
+</LinearLayout>
